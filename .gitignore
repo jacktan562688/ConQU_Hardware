@@ -1,0 +1,11 @@
+/.obsidian/
+/attendance/
+/evidence/*
+!/evidence/README.md
+/private/
+/*.canvas
+.env
+.env.*
+!.env.example
+*.pem
+*.key
