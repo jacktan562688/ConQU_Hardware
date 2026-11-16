@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"686ff250ad39b1e8","type":"text","text":"基本电子元器件","x":-460,"y":-200,"width":250,"height":60,"color":"1"},
+		{"id":"4d3594854bd28e52","type":"file","file":"notes/电阻器.md","x":240,"y":-700,"width":400,"height":400},
+		{"id":"d43ac1ad8eb7139d","type":"file","file":"notes/电容器.md","x":240,"y":-270,"width":400,"height":400},
+		{"id":"dd4f844f4671d598","x":-522,"y":-746,"width":400,"height":400,"type":"file","file":"notes/MOSFET.md"},
+		{"id":"e5997f6ba2b138a2","x":-1003,"y":-746,"width":400,"height":400,"type":"file","file":"notes/PCB.md"},
+		{"id":"4f7f3ff382b648e7","x":-1080,"y":-240,"width":400,"height":400,"type":"file","file":"notes/封装.md"},
+		{"id":"31b23c718528f495","type":"file","file":"notes/二极管.md","x":-380,"y":130,"width":400,"height":400},
+		{"id":"6f9be659147614bf","type":"file","file":"notes/电感器.md","x":240,"y":160,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"1f193990249eaeae","fromNode":"686ff250ad39b1e8","fromSide":"bottom","toNode":"31b23c718528f495","toSide":"left"},
+		{"id":"623541da24e40218","fromNode":"686ff250ad39b1e8","fromSide":"top","toNode":"dd4f844f4671d598","toSide":"bottom"},
+		{"id":"b9d9a4858d672c5a","fromNode":"686ff250ad39b1e8","fromSide":"top","toNode":"e5997f6ba2b138a2","toSide":"bottom"},
+		{"id":"b0db5ec9477ac8be","fromNode":"686ff250ad39b1e8","fromSide":"left","toNode":"4f7f3ff382b648e7","toSide":"right"},
+		{"id":"961fb69ab4bd8aac","fromNode":"686ff250ad39b1e8","fromSide":"right","toNode":"4d3594854bd28e52","toSide":"left"},
+		{"id":"d6b963efb5e1b4c7","fromNode":"686ff250ad39b1e8","fromSide":"right","toNode":"d43ac1ad8eb7139d","toSide":"left"},
+		{"id":"c2e2ba6f97c57338","fromNode":"686ff250ad39b1e8","fromSide":"right","toNode":"6f9be659147614bf","toSide":"left"}
+	]
+}
